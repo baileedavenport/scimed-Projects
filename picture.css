@@ -1,0 +1,44 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 25%;
+    border: 5px solid black;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #49B9DB;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    border: 5px solid #AB3623;
+    opacity: .75;
+}
+
+.container:hover .overlay {
+    width: 100%;
+}
+
+.text {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: 5px solid whitesmoke;
+}

@@ -1,0 +1,47 @@
+li {
+    float: left;
+    margin: 0 20px;
+}
+
+div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+
+#pic-pic {
+    float: right;
+    clear: right;
+    position: fixed;
+    height: auto;
+    max-width: 25%;
+    border: 5px blue solid;
+}
+
+.header,
+.footer {
+    background-color: grey;
+    color: white;
+    padding: 15px;
+}
+
+.column {
+    float: left;
+    padding: 15px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.menu {
+    width: 25%;
+}
+
+.content {
+    width: 75%;
+}

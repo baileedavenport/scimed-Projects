@@ -1,0 +1,48 @@
+#gi-gi {
+    text-align: center;
+}
+
+img {
+    z-index: -1;
+    float: right;
+    height: auto;
+    width: 500;
+}
+
+body {
+    background: radial-gradient(circle, red, yellow, green);
+    border: 2px solid darkblue;
+}
+
+#pic-pic {
+    float: left;
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+iframe {
+    border: black 5px solid;
+    width: 25%;
+    height: auto;
+}
+
+.gif-gif {
+    margin-left: 80%;
+    margin-right: 80%;
+}
+
+#container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: yellow;
+}
+
+#animate {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: red;
+}

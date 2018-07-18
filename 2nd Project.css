@@ -1,0 +1,97 @@
+h1 {
+    font-style: italic;
+    color: blueviolet;
+    text-align: center;
+    text-shadow: 2px 2px rgb(163, 95, 226);
+}
+
+img#main-dancer {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid black;
+    top: 50;
+}
+
+img#main-dancer:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+p {
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+    font-family: 'oxygen', sans-serif;
+}
+
+img#profile-picture {
+    border-radius: 50%;
+    max-width: 25%;
+    height: auto;
+    position: fixed;
+    top: 50;
+    right: 25;
+}
+
+h2 {
+    color: rgb(157, 76, 233);
+    font-style: initial;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(157, 76, 233);
+    font-style: initial;
+    text-align: center;
+}
+
+body {
+    background-color: aqua;
+    font-size: .5cm;
+    border: 10px dotted darkred;
+}
+
+h4 {
+    color: rgb(157, 76, 233);
+    font-style: initial;
+    font-weight: bold;
+}
+
+main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#debbie-dancing {
+    position: relative;
+    left: 25;
+    bottom: 0;
+    max-width: 30%;
+}
+
+.deb {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50;
+}
+
+li {
+    left: 25;
+}
+
+button {
+    align-content: center;
+}
+
+#change-pic {
+    font-style: italic;
+    color: blueviolet;
+    text-align: center;
+    text-shadow: 2px 2px rgb(163, 95, 226);
+    font-size: 25px
+}
