@@ -21,6 +21,10 @@ function changeText(id) {
 
 }
 
-function myImage() {
-    alert("Deborrah Allen");
+function myBackground() {
+    if (document.body.style.backgroundColor == ("aqua")) {
+        document.body.style.backgroundColor = "pink";
+    } else {
+        document.body.style.backgroundColor = "aqua"
+    }
 }
