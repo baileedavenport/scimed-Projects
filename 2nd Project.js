@@ -21,6 +21,7 @@ function changeText(id) {
 
 }
 
+
 function myBackground() {
     if (document.body.style.backgroundColor == ("aqua")) {
         document.body.style.backgroundColor = "pink";
